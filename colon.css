@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  font-family: arial;
+  border: border-box;
+}
+.navbar {
+  height: 60px;
+  background-color: #2f2f2f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo {
+  height: 50px;
+  width: 120px;
+}
+.logo {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/019/766/240/original/amazon-logo-amazon-icon-transparent-free-png.png");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  position: relative;
+  transform-style: preserve-3d;
+  border: 2px solid black;
+}
+.first {
+  color: #cccccc;
+  font-size: 1rem;
+  margin-left: 15px;
+}
+.second {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+}
+.search {
+  display: flex;
+  background-color: pink;
+  justify-content: space-evenly;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+}
+.search:hover {
+  border: 4px solid green;
+}
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  text-align: center;
+  border: none;
+}
+.search-input {
+  width: 100%;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  font-size: 1rem;
+  border: none;
+}
+.iconsearch {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: rgb(255, 174, 0);
+}
+span {
+  font-size: 0.7rem;
+}
+.list {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.cart i {
+  font-size: 30px;
+}
+.cart {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+.pannel2 {
+  height: 40px;
+  background-color: black;
+  color: white;
+  background-image: url("");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.pannel1 p {
+  display: inline;
+  margin-left: 10px;
+}
+.pannel1 {
+  width: 70%;
+  font-size: 0.85rem;
+}
+.deals {
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-align: center;
+}
+.hero {
+  background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/INSLGW/july6_pc_2._CB570060234_.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  animation: animate 20s infinite;
+  transform: translate(-100% -100%);
+}
+@keyframes animate {
+  20% {
+    background-image: url("https://i.ytimg.com/vi/1ez0dTgYb4E/maxresdefault.jpg");
+    background-size: cover;
+  }
+  20% {
+    background-image: url("https://www.coursehero.com/blog/wp-content/uploads/2021/08/Course-Hero-1-768x245.png");
+    background-size: cover;
+  }
+  20% {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/S/abs-image-upload-na/5/AmazonStores/A1RKKUPIHCS9HS/729829222a6ee97c27f1a7cf2ff1a98f.w3000.h600.jpg");
+    background-size: cover;
+  }
+}
+.message {
+  background-color: white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 25px;
+}
+.message a {
+  color: #007185;
+}
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /*border: 2px solid black;*/
+  background-color: bisque;
+}
+.box {
+  /*border: 2px solid black;*/
+  height: 400px;
+  width: 23%;
+  background-color: antiquewhite;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+  margin-bottom: 1rem;
+}
+.box-image {
+  height: 300px;
+}
+.img {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.box p {
+  color: #007185;
+}
+.footer-pannel {
+  height: 40px;
+  background-color: #37475a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.92rem;
+}
+.footer-pannel1 {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background-color: #222f3d;
+  color: white;
+}
+ul a {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #ffffff;
+}
+.footer-pannel2 {
+  height: 70px;
+  display: flex;
+  border-top: 0.5px solid white;
+  background-color: #37475a;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/019/766/240/original/amazon-logo-amazon-icon-transparent-free-png.png");
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+}
